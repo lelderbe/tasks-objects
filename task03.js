@@ -5,3 +5,7 @@ const people = [
 
 // Выведи в консоль имена людей (name) из массива 'people'
 // (используй цикл for..of)
+for (let item of people) {
+  console.log(item['name']);
+  console.log(item.name);
+}
