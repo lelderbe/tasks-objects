@@ -9,8 +9,29 @@ const people = [
 // Выведи в консоль только те объекты, у которых возраст меньше 30
 // (используй цикл for..of)
 
+for (let item of people) {
+  if (item.age < 30) {
+    console.log(item);
+  }
+}
+
+console.log('---------------');
+
 // Выведи в консоль только те объекты, у которых первая буква имени 'K'
 // (используй цикл for..of)
 
+for (let item of people) {
+  if (item.name[0] === 'K') {
+    console.log(item);
+  }
+}
+
+console.log('---------------');
 // Выведи в консоль только те объекты, у которых возраст меньше 30 и первая буква имени 'K'
 // (используй цикл for..of)
+
+for (let item of people) {
+  if (item.age < 30 && item.name[0] === 'K') {
+    console.log(item);
+  }
+}
