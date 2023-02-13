@@ -9,4 +9,10 @@ const name = 'person';
 // }
 // Используй цикл for..i и переменную name для создания ключей
 
+for (let i = 1; i <= 3; i++) {
+  people[name + i] = i;
+}
+
 // выведи объект people в консоль
+
+console.log(people);
