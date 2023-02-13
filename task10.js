@@ -13,6 +13,7 @@ const obj2 = {
 // используй деструктуризацию
 
 const obj3 = { ...obj1, ...obj2 };
-console.log(obj3);
 
 // выведи obj3 в консоль
+
+console.log(obj3);
