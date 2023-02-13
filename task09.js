@@ -1,6 +1,9 @@
 const obj1 = {
   name: 'Joe',
   age: 21,
+  myObj: {
+    title: 'A',
+  },
 };
 
 const obj2 = {
@@ -16,7 +19,12 @@ const obj3 = Object.assign({}, obj1, obj2);
 
 // выведи obj3 в консоль
 
-console.log(obj3);
-console.log('----------------');
-console.log(obj2);
+// console.log(obj3);
+// console.log('----------------');
+// console.log(obj2);
+// console.log(obj1);
+// console.log('-----------------');
+
+obj1.myObj.title = 'G';
 console.log(obj1);
+console.log(obj3);
